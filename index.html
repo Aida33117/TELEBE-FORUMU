@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TTİF 2026 Mingəçevir</title>
+<meta name="description" content="I Tələbə Tədqiqatları və İnnovasiyalar Forumu. 27 noyabr 2026, Mingəçevir Dövlət Universiteti. Azərbaycanın bütün universitetlərinin bakalavr tələbələri üçün açıqdır.">
+<link rel="icon" href="assets/img/emblem.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE an international science forum site: confident, luminous, trustworthy, built for registration
+   IDEA the forum poster itself: deep indigo-blue night field, glowing cyan-to-violet particle waves, neon-edged panels
+   PICTURE hero = the MDU film playing in a glowing frame beside the title, over animated particle waves
+   COLOUR indigo #070f45 ground (never black), panels #0f2070, cyan #22d3ff, blue #3b6bff, violet #8b3dff, white text
+   TYPE Montserrat (the poster's geometric capitals) + Inter for reading
+   LAYOUT two-tier header (identity + action, then the menu bar); views switch by menu; phone gets a drawer */
+:root{color-scheme:dark;--bg:#070f45;--bg2:#0a1655;--bg3:#0f2070;--ink:#f1f6ff;--mut:#b3c3ec;--line:#2a479e;--navy:#0b1a63;--navy2:#060d3a;--blue:#3b6bff;--cy:#22d3ff;--cy2:#5fe0ff;--vio:#8b3dff;--card:linear-gradient(160deg,#12287ccc,#0c1a5ccc);--grad:linear-gradient(100deg,#22d3ff,#3b6bff 55%,#8b3dff);--r:20px;--sh:0 18px 40px -18px #02061fcc;--glow:0 0 0 1px #22d3ff55,0 0 24px -6px #22d3ff88}
+*{box-sizing:border-box;min-width:0}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:150px;background:var(--bg)}
+body{margin:0;color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif;overflow-x:clip;background:radial-gradient(900px 600px at 0% 10%,#1b3fb855,transparent 70%),radial-gradient(900px 700px at 100% 60%,#5b2bc244,transparent 70%),var(--bg);background-attachment:fixed}
+img,video{max-width:100%;display:block}
+a{color:var(--cy2)}
+h1,h2,h3,h4{font-family:Montserrat,Inter,sans-serif;line-height:1.1;letter-spacing:-.02em;margin:0;text-wrap:balance;color:var(--ink)}
+h2{font-size:clamp(28px,3.6vw,44px);font-weight:800}
+h3{font-size:20px;font-weight:700}
+p{margin:0}
+.wrap{max-width:1240px;margin:0 auto}
+.band{position:relative;padding:clamp(48px,6.5vw,96px) max(4vw,16px)}
+.alt{background:radial-gradient(#22d3ff22 1px,transparent 1.4px) 0 0/22px 22px,linear-gradient(180deg,#0a1758,#0d1d68)}
+.kick{display:inline-block;color:var(--cy);font-weight:700;font-size:15px;margin-bottom:12px}
+.lead{font-size:18px;color:var(--mut);max-width:64ch}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px 40px;margin-bottom:clamp(26px,4vw,44px)}
+.head .lead{max-width:54ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 24px;border-radius:999px;font:700 16px Inter,sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn.reg{background:var(--grad);color:#fff;box-shadow:0 0 0 1px #ffffff33 inset,0 8px 28px -6px #22d3ffaa,0 0 30px -10px #8b3dff}
+.btn.blue{background:#ffffff10;color:#fff;border-color:var(--cy);box-shadow:0 0 18px -6px #22d3ff}
+.btn.line,.btn.glass{border-color:#ffffff55;background:#ffffff0d;color:#fff}
+.btn.blue:hover,.btn.line:hover,.btn.glass:hover{background:#22d3ff22}
+.more{font-weight:700;text-decoration:none;color:var(--cy)}
+.more:hover{text-decoration:underline}
+:focus-visible{outline:3px solid var(--cy);outline-offset:3px}
+/* header */
+header{position:sticky;top:0;z-index:60;background:#070f45f2;backdrop-filter:blur(12px);box-shadow:0 1px 0 #22d3ff44,0 10px 30px -18px #000a}
+.top{background:#050b33;border-bottom:1px solid #22d3ff22;font-size:14px;color:var(--mut)}
+.top .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 20px;padding:7px max(4vw,16px)}
+.top span{display:inline-flex;gap:6px;align-items:center;white-space:nowrap}
+.top svg{width:15px;height:15px;stroke:var(--cy);fill:none;stroke-width:2}
+.top .soc{display:flex;gap:4px}
+.top .soc a{width:28px;height:28px;display:grid;place-items:center;border-radius:50%}
+.top .soc a:hover{background:#22d3ff22}
+.top .soc svg{fill:#dce8ff;stroke:none;width:15px;height:15px}
+.idb .wrap{display:flex;align-items:center;gap:16px;padding:12px max(4vw,16px)}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--ink);margin-right:auto}
+.brand img{width:58px;height:58px;border-radius:50%;box-shadow:0 0 0 2px #22d3ff88,0 0 22px -4px #22d3ff}
+.brand b{font-family:Montserrat;font-size:clamp(15px,1.6vw,19px);font-weight:800;line-height:1.2;display:block;max-width:24ch}
+.brand small{font-size:13px;color:var(--cy2);font-weight:600}
+.burger{display:none;width:48px;height:48px;border-radius:14px;border:1px solid #22d3ff66;background:#ffffff0d;cursor:pointer;place-items:center}
+.burger svg{width:24px;height:24px;stroke:#fff;stroke-width:2.2}
+nav.menu{background:linear-gradient(90deg,#0b1a63,#132a8f 50%,#2a1f8f);border-top:1px solid #22d3ff33}
+nav.menu ul{list-style:none;margin:0 auto;padding:0 max(2vw,16px);max-width:1340px;display:flex;justify-content:center;gap:clamp(6px,1.3vw,22px)}
+nav.menu a{display:block;color:#d6e2ff;text-decoration:none;font:600 14.5px Inter,sans-serif;padding:15px 4px 13px;border-bottom:3px solid transparent;white-space:nowrap}
+nav.menu a:hover{color:#fff;text-shadow:0 0 12px #22d3ff}
+nav.menu a.on{color:#fff;border-bottom-color:var(--cy);text-shadow:0 0 12px #22d3ffaa}
+@media(max-width:1320px){nav.menu a{font-size:13.5px}}
+@media(max-width:1180px){
+ .burger{display:grid}
+ nav.menu{display:none;position:fixed;inset:0 0 0 auto;width:min(340px,88vw);z-index:80;overflow-y:auto;padding:76px 0 24px;background:linear-gradient(180deg,#0b1a63,#2a1f8f);box-shadow:-20px 0 40px #02061f}
+ nav.menu.open{display:block}
+ nav.menu ul{flex-direction:column;padding:0 18px;gap:0}
+ nav.menu a{font-size:16px;padding:14px 12px;border-bottom:1px solid #ffffff1a;border-left:3px solid transparent}
+ nav.menu a.on{border-bottom-color:#ffffff1a;border-left-color:var(--cy);background:#ffffff12}
+ .x{position:absolute;top:16px;right:16px}
+}
+@media(min-width:1181px){.x{display:none}}
+.shade{display:none;position:fixed;inset:0;background:#050b33cc;z-index:70}
+.shade.on{display:block}
+@media(max-width:560px){.top .wrap>span:nth-child(2){display:none}.idb .reg{display:none}.brand img{width:48px;height:48px}.brand b{font-size:14px}}
+/* views */
+.view{display:none}
+.view.on{display:block;animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.phead{position:relative;overflow:hidden;background:radial-gradient(700px 260px at 85% 10%,#8b3dff55,transparent),radial-gradient(700px 300px at 10% 100%,#22d3ff33,transparent),linear-gradient(120deg,#0a1a6b,#1638b5 55%,#2b1e93);padding:clamp(40px,6vw,80px) max(4vw,16px);border-bottom:1px solid #22d3ff44}
+.phead::after{content:"";position:absolute;inset:0;background:radial-gradient(#ffffff2a 1px,transparent 1.4px) 0 0/18px 18px;-webkit-mask:linear-gradient(90deg,transparent 40%,#000);mask:linear-gradient(90deg,transparent 40%,#000);pointer-events:none}
+.phead .wrap{position:relative;z-index:1}
+.phead h1{color:#fff;font-size:clamp(32px,4.6vw,56px);font-weight:900;text-shadow:0 0 30px #22d3ff55}
+.phead p{color:#d6e4ff;font-size:18px;margin-top:14px;max-width:62ch}
+.crumb{font-size:14px;color:#b9cffa;margin-bottom:14px}
+.crumb a{color:var(--cy2);text-decoration:none}
+/* hero */
+.hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(800px 500px at 80% 30%,#5b2bc255,transparent 70%),linear-gradient(125deg,#081258 0%,#0f2a9a 50%,#1a1a7a 100%)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%}
+.hgrid{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(28px,4vw,56px);align-items:center;padding:clamp(36px,5vw,72px) max(4vw,16px) 120px;max-width:1340px;margin:0 auto}
+.pill{display:inline-flex;align-items:center;gap:10px;background:#ffffff14;border:1px solid #22d3ff66;border-radius:999px;padding:8px 16px;font-size:14px;font-weight:600;margin-bottom:22px;box-shadow:0 0 20px -8px #22d3ff}
+.pill i{width:9px;height:9px;border-radius:50%;background:var(--cy);box-shadow:0 0 12px var(--cy)}
+.hero h1{color:#fff;font-size:clamp(34px,4.8vw,62px);font-weight:900;text-shadow:0 0 40px #22d3ff44}
+.hero h1 em{font-style:normal;display:block;font-size:.46em;font-weight:700;color:var(--cy2);margin-top:16px;letter-spacing:-.01em}
+.hero .txt{font-size:18px;color:#d8e5ff;margin-top:18px;max-width:58ch}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 28px}
+.meta span{display:inline-flex;align-items:center;gap:8px;background:#ffffff12;border:1px solid #22d3ff55;border-radius:999px;padding:9px 16px;font-weight:600;white-space:nowrap}
+.meta svg{width:18px;height:18px;stroke:var(--cy);fill:none;stroke-width:2}
+.acts{display:flex;flex-wrap:wrap;gap:12px}
+.hvid{position:relative;padding:10px}
+.hvid .frame{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:16/9;background:#0b1a63;box-shadow:0 0 0 2px #22d3ffaa,0 0 40px -6px #22d3ff,0 0 80px -20px #8b3dff,0 30px 60px -20px #02061f}
+.hvid video{width:100%;height:100%;object-fit:cover}
+.hvid::before,.hvid::after{content:"";position:absolute;width:56px;height:56px;border:3px solid var(--cy);filter:drop-shadow(0 0 6px #22d3ff)}
+.hvid::before{top:0;left:0;border-right:0;border-bottom:0;border-radius:18px 0 0 0}
+.hvid::after{right:0;bottom:0;border-left:0;border-top:0;border-radius:0 0 18px 0}
+.vctl{position:absolute;right:22px;top:22px;display:flex;gap:8px;z-index:2}
+.vctl button{min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:1px solid #ffffff66;background:#070f45b3;color:#fff;font:600 14px Inter;cursor:pointer;display:inline-flex;align-items:center;gap:8px;backdrop-filter:blur(6px)}
+.vctl button:hover{background:#22d3ff44}
+.vctl svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2}
+.hvid .badge{position:absolute;left:-14px;bottom:-34px;width:clamp(96px,22%,140px);aspect-ratio:1;border-radius:50%;background:#fff;padding:6px;box-shadow:0 0 0 6px #22d3ff33,0 0 40px #22d3ff99;z-index:2}
+.hvid .badge img{width:100%;height:100%;border-radius:50%}
+@media(max-width:900px){.hgrid{grid-template-columns:minmax(0,1fr);padding-bottom:130px}.hvid{max-width:640px;width:100%;margin:0 auto}.hvid .badge{left:4px;bottom:-26px;width:92px}}
+.cdbar{position:relative;z-index:2;margin:-72px auto 0;max-width:1100px;padding:0 max(4vw,16px)}
+.cd{background:linear-gradient(120deg,#0f2275f2,#1d1a8af2);border-radius:24px;box-shadow:var(--glow),var(--sh);display:grid;grid-template-columns:minmax(0,1.3fr) repeat(4,minmax(0,1fr)) auto;align-items:center;gap:12px;padding:18px 22px;backdrop-filter:blur(8px)}
+.cd .l b{font-family:Montserrat;font-size:18px;display:block;white-space:nowrap}
+.cd .l span{font-size:14px;color:var(--mut)}
+.cd .n{text-align:center;background:#ffffff0d;border:1px solid #22d3ff33;border-radius:14px;padding:10px 4px}
+.cd .n b{font-family:Montserrat;font-weight:800;font-size:clamp(26px,3vw,36px);color:#fff;display:block;line-height:1.1;font-variant-numeric:tabular-nums;text-shadow:0 0 18px #22d3ffaa}
+.cd .n small{font-size:13px;color:var(--mut)}
+@media(max-width:860px){.cd{grid-template-columns:repeat(4,minmax(0,1fr))}.cd .l,.cd .btn{grid-column:1/-1}.cd .l{text-align:center}}
+/* cards */
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:980px){.g4{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.g2,.g3,.g4{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--card);border:1px solid #22d3ff33;border-radius:var(--r);padding:24px;box-shadow:var(--sh)}
+.card p{color:var(--mut);font-size:15.5px;margin-top:8px}
+.ic{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,#22d3ff33,#8b3dff33);border:1px solid #22d3ff55;margin-bottom:16px;box-shadow:0 0 20px -8px #22d3ff}
+.ic svg{width:28px;height:28px;stroke:var(--cy2);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.pcard{background:var(--card);border:1px solid #22d3ff33;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.pcard:hover{box-shadow:var(--glow),var(--sh);transform:translateY(-2px)}
+.pcard img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.pcard .b{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.pcard .tag{font-size:13px;font-weight:700;color:var(--cy)}
+.pcard p{color:var(--mut);font-size:15px;flex:1}
+.split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);align-items:center}
+@media(max-width:880px){.split{grid-template-columns:minmax(0,1fr)}}
+.ph{border-radius:26px;overflow:hidden;box-shadow:0 0 0 1px #22d3ff55,0 0 40px -12px #22d3ff,var(--sh)}
+.ph img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.ticks{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:12px}
+.ticks li{position:relative;display:grid;grid-template-columns:28px minmax(0,1fr);gap:12px;color:var(--mut)}
+.ticks li::before{content:"";width:28px;height:28px;border-radius:50%;background:var(--grad);box-shadow:0 0 12px -2px #22d3ff}
+.ticks li::after{content:"";position:absolute;left:9px;top:8px;width:10px;height:6px;border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;transform:rotate(-45deg)}
+.ticks b{color:var(--ink)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.stats div{background:var(--card);border:1px solid #22d3ff33;border-radius:18px;padding:20px}
+.stats b{font-family:Montserrat;font-weight:900;font-size:clamp(28px,3.4vw,40px);background:linear-gradient(90deg,#5fe0ff,#a77bff);-webkit-background-clip:text;background-clip:text;color:transparent;display:block;line-height:1.1}
+.stats span{color:var(--mut);font-size:14.5px}
+@media(max-width:820px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* directions */
+.dir{position:relative;border-radius:var(--r);overflow:hidden;min-height:270px;display:flex;align-items:end;color:#fff;box-shadow:0 0 0 1px #22d3ff44,var(--sh);text-decoration:none;transition:transform .2s,box-shadow .2s}
+.dir:hover{transform:translateY(-3px);box-shadow:var(--glow),var(--sh)}
+.dir img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.dir::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#070f4500 0%,#0b1a63b8 38%,#070f45f5 72%)}
+.dir .b{position:relative;padding:20px}
+.dir h3{color:#fff;font-size:19px}
+.dir p{color:#dbe7ff;font-size:14.5px;margin-top:6px}
+.dir .no{position:absolute;top:14px;left:14px;z-index:1;background:var(--grad);color:#fff;font:800 13px Montserrat;border-radius:999px;padding:5px 11px}
+.dirl{display:grid;gap:18px}
+.dirrow{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;background:var(--card);border:1px solid #22d3ff33;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.dirrow img{width:100%;height:100%;object-fit:cover;min-height:200px}
+.dirrow .b{padding:22px 24px 22px 0}
+.dirrow p{color:var(--mut);margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chips span{background:#22d3ff14;border:1px solid #22d3ff55;color:#dff7ff;border-radius:999px;padding:5px 12px;font-size:13.5px;font-weight:600}
+@media(max-width:700px){.dirrow{grid-template-columns:minmax(0,1fr)}.dirrow .b{padding:0 20px 22px}.dirrow img{aspect-ratio:16/9;min-height:0}}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.tl li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:22px;background:var(--card);border:1px solid #22d3ff33;border-left:3px solid var(--cy);border-radius:18px;padding:20px 22px;box-shadow:var(--sh)}
+.tl .tm{font:800 18px Montserrat;color:var(--cy);white-space:nowrap}
+.tl .tm small{display:block;font:600 13px Inter;color:var(--mut);white-space:normal}
+.tl h3{font-size:18px}
+.tl p{color:var(--mut);font-size:15px;margin-top:4px}
+.tl .where{display:inline-block;margin-top:8px;font-size:13px;font-weight:700;color:#c3a6ff}
+@media(max-width:620px){.tl li{grid-template-columns:minmax(0,1fr);gap:6px}}
+.note{background:#22d3ff14;border:1px solid #22d3ff55;color:#dff7ff;border-radius:16px;padding:14px 18px;font-size:15px}
+/* speakers */
+.spk{background:var(--card);border:1px solid #22d3ff33;border-radius:var(--r);padding:22px;text-align:center;box-shadow:var(--sh)}
+.spk .av{width:96px;height:96px;border-radius:50%;margin:0 auto 14px;background:radial-gradient(circle at 30% 30%,#22d3ff44,#8b3dff33);display:grid;place-items:center;box-shadow:0 0 0 2px var(--cy),0 0 24px -4px #22d3ff}
+.spk .av svg{width:46px;height:46px;stroke:#fff;fill:none;stroke-width:1.6}
+.spk b{font-family:Montserrat;font-size:17px;display:block}
+.spk span{color:var(--mut);font-size:14.5px}
+/* partners */
+.org{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.org .card{display:grid;grid-template-columns:120px minmax(0,1fr);gap:20px;align-items:center}
+.org .lg{width:120px;height:120px;border-radius:24px;background:#ffffff10;border:1px solid #22d3ff55;display:grid;place-items:center;padding:10px;font:900 26px Montserrat;color:#fff;text-align:center;line-height:1;text-shadow:0 0 16px #22d3ff}
+.org .lg img{border-radius:50%}
+@media(max-width:820px){.org{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:480px){.org .card{grid-template-columns:minmax(0,1fr)}}
+.media{border-radius:22px;overflow:hidden;background:#0b1a63;box-shadow:0 0 0 1px #22d3ff55,var(--sh)}
+.media img{width:100%}
+.mlist{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.mlist span{border:1px solid #22d3ff44;border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600;background:#ffffff0a}
+/* news & gallery */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.filters button{min-height:44px;padding:9px 18px;border-radius:999px;border:1px solid #22d3ff55;background:#ffffff0a;color:#fff;font:600 15px Inter,sans-serif;cursor:pointer}
+.filters button[aria-pressed=true]{background:var(--grad);border-color:transparent}
+.news .pcard .d{font-size:13px;color:var(--mut);font-weight:600;display:flex;justify-content:space-between;gap:10px}
+.news .noimg{aspect-ratio:16/10;background:radial-gradient(circle at 70% 30%,#8b3dff66,transparent 60%),linear-gradient(125deg,#0b1a63,#1f4fe0);display:grid;place-items:center;padding:20px;color:#fff;font:800 20px Montserrat;text-align:center;text-shadow:0 0 18px #22d3ff}
+.gal{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.gal button{padding:0;border:0;border-radius:16px;overflow:hidden;cursor:zoom-in;background:var(--bg3);position:relative;aspect-ratio:4/3;box-shadow:0 0 0 1px #22d3ff33}
+.gal button:hover{box-shadow:var(--glow)}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.gal button:hover img{transform:scale(1.05)}
+.gal span{position:absolute;left:0;right:0;bottom:0;padding:24px 12px 10px;background:linear-gradient(transparent,#070f45ee);color:#fff;font-size:13.5px;font-weight:600;text-align:left}
+@media(max-width:900px){.gal{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.gal{grid-template-columns:repeat(2,minmax(0,1fr))}.gal span{display:none}}
+dialog.lb{border:0;padding:0;background:transparent;max-width:min(1100px,94vw);width:100%}
+dialog.lb::backdrop{background:#050b33ee}
+.lb figure{margin:0;background:#0b1a63;border:1px solid #22d3ff66;border-radius:20px;overflow:hidden;color:#fff}
+.lb img{width:100%;max-height:76vh;object-fit:contain;background:#070f45}
+.lb figcaption{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px;font-weight:600}
+.lb figcaption div{display:flex;gap:8px}
+.lb button{min-width:44px;min-height:44px;border-radius:12px;border:1px solid #22d3ff66;background:#ffffff10;font:700 18px Inter;color:#fff;cursor:pointer}
+/* registration */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;counter-reset:s}
+.steps div{background:var(--card);border:1px solid #22d3ff33;border-radius:18px;padding:18px;counter-increment:s}
+.steps div::before{content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--grad);color:#fff;font:800 16px Montserrat;margin-bottom:10px;box-shadow:0 0 14px -2px #22d3ff}
+.steps b{display:block;font-family:Montserrat}
+.steps span{font-size:14.5px;color:var(--mut)}
+@media(max-width:820px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.regl{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:clamp(24px,4vw,48px);align-items:start}
+@media(max-width:960px){.regl{grid-template-columns:minmax(0,1fr)}}
+form.f{background:var(--card);border:1px solid #22d3ff44;border-radius:26px;padding:clamp(20px,3vw,34px);box-shadow:var(--sh);display:grid;gap:18px}
+fieldset{border:0;margin:0;padding:0;display:grid;gap:14px}
+legend{font:800 18px Montserrat;color:#fff;margin-bottom:12px;padding:0}
+.f2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media(max-width:560px){.f2{grid-template-columns:minmax(0,1fr)}}
+label.fl{display:block;font-weight:600;font-size:14px;color:#dce6ff}
+label.fl input,label.fl select,label.fl textarea{display:block;margin-top:6px}
+label.fl i{color:#ff7a9a;font-style:normal}
+input,select,textarea{font:16px Inter,sans-serif;padding:11px 14px;border-radius:12px;border:1px solid #3a5bc0;background:#060d3acc;color:#fff;min-height:48px;width:100%}
+input::placeholder,textarea::placeholder{color:#8ea3d6}
+select option{background:#0b1a63;color:#fff}
+input:focus,select:focus,textarea:focus{border-color:var(--cy);outline:3px solid #22d3ff40;outline-offset:0}
+textarea{min-height:120px;resize:vertical}
+input[type=file]{padding:10px;background:#ffffff0a}
+input[type=file]::file-selector-button{border:0;border-radius:999px;padding:8px 14px;margin-right:10px;background:var(--grad);color:#fff;font:600 14px Inter;cursor:pointer}
+.seg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.seg label,.checks label{display:flex;gap:10px;align-items:center;border:1px solid #3a5bc0;border-radius:14px;padding:12px 14px;cursor:pointer;font-weight:600;font-size:15px;background:#060d3a99;min-height:48px}
+.seg input,.checks input{width:20px;height:20px;min-height:0;accent-color:var(--cy);flex:none}
+.seg label:has(input:checked),.checks label:has(input:checked){border-color:var(--cy);background:#22d3ff1f;box-shadow:0 0 16px -6px #22d3ff}
+.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media(max-width:560px){.checks,.seg{grid-template-columns:minmax(0,1fr)}}
+.hint{font-size:13.5px;color:var(--mut);font-weight:500}
+.member{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) minmax(0,1.2fr) 44px;gap:8px;align-items:center}
+.member button{height:44px;border-radius:12px;border:1px solid #3a5bc0;background:#ffffff0a;cursor:pointer;font-size:18px;color:#ff7a9a}
+@media(max-width:700px){.member{grid-template-columns:minmax(0,1fr) 44px}.member input:not(:first-child){grid-column:1}}
+.agree{display:flex;gap:10px;align-items:start;font-size:14.5px;color:var(--mut)}
+.agree input{width:20px;height:20px;min-height:0;margin-top:2px;accent-color:var(--cy);flex:none}
+.msg{display:none;border-radius:16px;padding:16px 18px;font-size:15px}
+.msg.ok{display:block;background:#14c78a22;border:1px solid #3ee6a8;color:#d9fff0}
+.msg.err{display:block;background:#ff4d7a1f;border:1px solid #ff7a9a;color:#ffe3ea}
+.msg.wait{display:block;background:#22d3ff14;border:1px solid #22d3ff55;color:#dff7ff}
+.msg a{color:#fff}
+.aside{display:grid;gap:16px;position:sticky;top:170px}
+.aside .poster{border-radius:20px;overflow:hidden;box-shadow:0 0 0 1px #22d3ff66,0 0 40px -10px #22d3ff}
+/* contact */
+.cgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:900px){.cgrid{grid-template-columns:minmax(0,1fr)}}
+.cc small{display:block;color:var(--cy);font-size:13px;font-weight:700;margin-bottom:4px}
+.cc b,.cc a{font-weight:700;font-size:16.5px;overflow-wrap:anywhere}
+.mapc{position:relative;border-radius:24px;overflow:hidden;min-height:340px;display:grid;align-content:end;padding:26px;color:#fff;box-shadow:0 0 0 1px #22d3ff55,var(--sh)}
+.mapc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mapc::before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#070f45f2,#0b1a6333);z-index:1}
+.mapc>*:not(img){position:relative;z-index:2}
+/* cta & footer */
+.cta{background:radial-gradient(600px 300px at 90% 0%,#8b3dff66,transparent),linear-gradient(120deg,#0f2a9a,#1b1a86);border:1px solid #22d3ff55;box-shadow:0 0 60px -20px #22d3ff;border-radius:30px;padding:clamp(26px,4vw,48px);display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center;position:relative;overflow:hidden}
+.cta p{color:#d6e4ff;margin-top:12px;font-size:17px}
+.cta img{border-radius:18px;box-shadow:0 0 0 1px #22d3ff88,0 20px 40px -16px #02061f}
+@media(max-width:820px){.cta{grid-template-columns:minmax(0,1fr)}}
+footer{background:linear-gradient(180deg,#060d3a,#0a1150);border-top:1px solid #22d3ff44;color:#c6d5f5;padding:56px max(4vw,16px) 26px}
+.ft{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1.1fr);gap:32px}
+.ft h4{color:#fff;font-size:16px;margin-bottom:12px}
+.ft a{display:block;color:#c6d5f5;text-decoration:none;padding:4px 0;font-size:15px}
+.ft a:hover{color:var(--cy)}
+.ft .lg{width:150px;border-radius:18px;background:#fff;padding:6px;margin-bottom:14px;box-shadow:0 0 24px -6px #22d3ff}
+.fsoc{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.fsoc a{width:44px;height:44px;border-radius:50%;background:#ffffff12;border:1px solid #22d3ff44;display:grid;place-items:center;padding:0}
+.fsoc a:hover{background:var(--grad)}
+.fsoc svg{width:19px;height:19px;fill:#fff}
+.copy{border-top:1px solid #ffffff22;margin-top:36px;padding-top:18px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:14px;color:#9fb3df}
+@media(max-width:900px){.ft{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.ft{grid-template-columns:minmax(0,1fr)}}
+.totop{position:fixed;right:18px;bottom:18px;z-index:50;width:48px;height:48px;border-radius:50%;border:0;background:var(--grad);color:#fff;font-size:20px;cursor:pointer;box-shadow:0 0 20px -4px #22d3ff;display:none}
+.totop.on{display:block}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM17.5 5.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M17.8 3h3.1l-6.8 7.8L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/></symbol>
+ <symbol id="i-in" viewBox="0 0 24 24"><path d="M4.5 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM3 9h3v12H3zm6 0h2.9v1.7h.1c.4-.8 1.4-1.9 3.2-1.9 3.4 0 4 2.2 4 5.1V21h-3v-6.2c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V21H9z"/></symbol>
+ <symbol id="i-tt" viewBox="0 0 24 24"><path d="M16.6 2c.4 2.5 1.9 4 4.4 4.2v3.2c-1.6.1-3-.4-4.4-1.3v6.3c0 4-3 6.6-6.6 6.6A6.4 6.4 0 0 1 3.5 14c0-4 3.4-6.9 7.4-6.4v3.4c-1.8-.4-3.9.7-3.9 3 0 1.7 1.3 3.1 3 3.1 1.9 0 3.1-1.3 3.1-3.4V2z"/></symbol>
+ <symbol id="i-yt" viewBox="0 0 24 24"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12a31 31 0 0 0 .4 3.8 3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15.1V8.9l5.2 3.1z"/></symbol>
+ <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21.5 3.6 2.9 10.8c-1.3.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.6c.2.6.5.8.9.8s.6-.2.9-.5l2.4-2.3 4.9 3.6c.9.5 1.5.2 1.8-.8l3.2-15.1c.3-1.3-.5-1.9-1.4-1.5zM9.8 14.2l-.4 4-1.4-4.6L18.6 7z"/></symbol>
+</svg>
+
+<header>
+  <div class="top"><div class="wrap">
+    <span><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>27 noyabr 2026 · 15:00</span>
+    <span><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Mingəçevir Dövlət Universiteti</span>
+    <div class="soc" id="soc-top"></div>
+  </div></div>
+  <div class="idb"><div class="wrap">
+    <a class="brand" href="#ana"><img src="assets/img/emblem.jpg" alt="TTİF loqosu"><span><b>I Tələbə Tədqiqatları və İnnovasiyalar Forumu</b><small>TTİF 2026 · Mingəçevir</small></span></a>
+    <a class="btn reg" href="#qeydiyyat">Qeydiyyat</a>
+    <button class="burger" id="burger" aria-label="Menyunu aç" aria-controls="menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div></div>
+  <nav class="menu" id="menu" aria-label="Əsas menyu">
+    <button class="burger x" id="close" aria-label="Menyunu bağla"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <ul>
+      <li><a href="#ana">Ana səhifə</a></li>
+      <li><a href="#haqqinda">Forum haqqında</a></li>
+      <li><a href="#istiqametler">Elmi istiqamətlər</a></li>
+      <li><a href="#qaydalar">İştirak qaydaları</a></li>
+      <li><a href="#proqram">Forum proqramı</a></li>
+      <li><a href="#sergi">İnnovasiya sərgisi</a></li>
+      <li><a href="#paneller">Panel müzakirələri</a></li>
+      <li><a href="#terefdaslar">Tərəfdaşlar</a></li>
+      <li><a href="#xeberler">Xəbərlər və qalereya</a></li>
+      <li><a href="#elaqe">Əlaqə</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="shade" id="shade"></div>
+
+<main>
+<!-- ============ ANA SƏHİFƏ ============ -->
+<section class="view" data-view="ana">
+  <div class="hero">
+    <canvas id="waves" aria-hidden="true"></canvas>
+    <div class="hgrid">
+      <div>
+        <div class="pill"><i></i>Azərbaycanın bütün universitetlərinin tələbələri üçün açıqdır</div>
+        <h1>Gələcəyin innovasiyaları Mingəçevirdə bir araya gəlir<em>I Tələbə Tədqiqatları və İnnovasiyalar Forumu</em></h1>
+        <p class="txt">Gənc tədqiqatçıları, innovatorları və startap həvəskarlarını sənaye nümayəndələri və real imkanlarla birləşdirən yeni elmi-texnoloji platforma.</p>
+        <div class="meta">
+          <span><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>27 noyabr 2026</span>
+          <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>15:00</span>
+          <span><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>Mingəçevir Dövlət Universiteti</span>
+        </div>
+        <div class="acts">
+          <a class="btn reg" href="#qeydiyyat">Qeydiyyatdan keç →</a>
+          <a class="btn glass" href="#qeydiyyat" data-pre="Innovation Expo">Layihəni təqdim et</a>
+        </div>
+      </div>
+      <div class="hvid">
+        <div class="frame"><video id="hv" autoplay muted loop playsinline preload="auto" poster="assets/img/hero-video-poster.jpg" aria-label="Mingəçevir Dövlət Universitetinin tanıtım videosu"><source src="assets/img/hero-video.mp4" type="video/mp4"></video></div>
+        <div class="vctl"><button type="button" id="hv-snd" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path id="hv-x" d="M17 9l4 6M21 9l-4 6"/></svg><span>Səsi aç</span></button><button type="button" id="hv-pp" aria-label="Dayandır"><svg viewBox="0 0 24 24"><path id="hv-pi" d="M8 5v14M16 5v14"/></svg></button></div>
+        <div class="badge"><img src="assets/img/emblem.jpg" alt="TTİF 2026 emblemi"></div>
+      </div>
+    </div>
+  </div>
+  <div class="cdbar">
+    <div class="cd" aria-live="polite">
+      <div class="l"><b id="cdl">Foruma qalan vaxt</b><span>27.11.2026 · 15:00 · Mingəçevir</span></div>
+      <div class="n"><b data-cd="d">0</b><small>gün</small></div>
+      <div class="n"><b data-cd="h">00</b><small>saat</small></div>
+      <div class="n"><b data-cd="m">00</b><small>dəqiqə</small></div>
+      <div class="n"><b data-cd="s">00</b><small>saniyə</small></div>
+      <a class="btn reg" href="#qeydiyyat">Yerini təsdiqlə</a>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap split">
+      <div>
+        <span class="kick">Forum haqqında</span>
+        <h2>Tələbə ideyaları real imkanlarla görüşür</h2>
+        <p class="lead" style="margin-top:16px">Mingəçevir Dövlət Universiteti və Mingəçevir Yüksək Texnologiyalar Parkının birgə təşkilatçılığı ilə keçirilən forum gənclərin elmi potensialını, innovativ ideyalarını və yaradıcı təşəbbüslərini bir araya gətirir.</p>
+        <ul class="ticks">
+          <li><span><b>Elmi məruzələr:</b> tədqiqatını tezis kimi təqdim et.</span></li>
+          <li><span><b>Innovation Expo:</b> prototipini və startapını sərgilə.</span></li>
+          <li><span><b>Industry Connect:</b> sənaye rəhbərləri ilə birbaşa ünsiyyət qur.</span></li>
+          <li><span><b>AI təlimləri:</b> ODTÜ və Kahramanmaraş Universitetinin professorlarından öyrən.</span></li>
+        </ul>
+        <div class="acts" style="margin-top:26px"><a class="btn blue" href="#haqqinda">Ətraflı oxu</a></div>
+      </div>
+      <div class="ph"><img src="assets/img/auditorium.jpg" alt="Konfrans zalında tələbələr və qonaqlar" loading="lazy"></div>
+    </div>
+    <div class="wrap stats" style="margin-top:clamp(36px,5vw,56px)">
+      <div><b>8</b><span>elmi istiqamət</span></div>
+      <div><b>6</b><span>forum formatı</span></div>
+      <div><b>3</b><span>panel müzakirəsi</span></div>
+      <div><b>15</b><span>media tərəfdaşı</span></div>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Elmi istiqamətlər</span><h2>Tədqiqatın hansı sahədədir?</h2></div><a class="more" href="#istiqametler">Bütün istiqamətlər →</a></div>
+      <div class="grid g4" id="dir-home"></div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">İnnovasiya sərgisi</span><h2>Laboratoriyadan real həyata</h2></div><p class="lead">Innovation Expo-da tələbələr nə bildiklərini deyil, nə yarada bildiklərini göstərir.</p></div>
+      <div class="grid g3">
+        <article class="pcard"><img src="assets/img/voltx.jpg" alt="VoltX enerji idarəetmə paneli" loading="lazy"><div class="b"><span class="tag">Rəqəmsal məhsul</span><h3>VoltX</h3><p>Evlər və müəssisələr üçün ağıllı enerji sərfiyyatı, xərc və CO₂ azalması paneli.</p></div></article>
+        <article class="pcard"><img src="assets/img/bluegreen.jpg" alt="BlueGreen ESG paneli" loading="lazy"><div class="b"><span class="tag">Data və analitika</span><h3>BlueGreen</h3><p>Şirkətlər üçün canlı ESG göstəriciləri: şəffaflıq, risk idarəsi və kiber təhlükəsizlik.</p></div></article>
+        <article class="pcard"><img src="assets/img/greenlife.jpg" alt="MSU Green Life stendi" loading="lazy"><div class="b"><span class="tag">Sosial innovasiya</span><h3>MSU Green Life</h3><p>Yaşıl kampus və dayanıqlı inkişaf təşəbbüslərini təbliğ edən tələbə komandası.</p></div></article>
+      </div>
+      <div class="acts" style="margin-top:24px"><a class="btn blue" href="#sergi">Sərgi haqqında</a><a class="btn line" href="#qeydiyyat" data-pre="Innovation Expo">Stend üçün müraciət</a></div>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <div class="wrap split">
+      <div class="ph"><img src="assets/img/panel.jpg" alt="Panel müzakirəsi" loading="lazy"></div>
+      <div>
+        <span class="kick">Panel müzakirələri</span>
+        <h2>Gələcəyin çağırışları bir masa arxasında</h2>
+        <div class="grid" style="margin-top:22px" id="panel-home"></div>
+        <div class="acts" style="margin-top:22px"><a class="btn blue" href="#paneller">Panellərə bax</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Spikerlər və tərəfdaşlar</span><h2>Forumda kimlər çıxış edəcək</h2></div><p class="lead">Spikerlərin adları təşkilat komitəsi tərəfindən təsdiqləndikcə burada elan olunacaq.</p></div>
+      <div class="grid g4" id="spk-home"></div>
+      <div class="org" style="margin-top:22px">
+        <div class="card"><div class="lg"><img src="assets/img/emblem.jpg" alt=""></div><div><span class="kick" style="margin:0">Təşkilatçı</span><h3>Mingəçevir Dövlət Universiteti</h3><p>Forumun ev sahibi və baş təşkilatçısı.</p></div></div>
+        <div class="card"><div class="lg">YTP</div><div><span class="kick" style="margin:0">Həmtəşkilatçı</span><h3>Mingəçevir Yüksək Texnologiyalar Parkı</h3><p>Perspektivli layihələr üçün texnopark və inkubasiya imkanları.</p></div></div>
+      </div>
+      <div class="media" style="margin-top:18px"><img src="assets/img/media-logos.jpg" alt="Media tərəfdaşlarının loqoları" loading="lazy"></div>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Son xəbərlər</span><h2>MDU-da innovasiya gündəmi</h2></div><a class="more" href="#xeberler">Bütün xəbərlər →</a></div>
+      <div class="grid g3 news" id="news-home"></div>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="wrap cta">
+      <div><h2>Sənin də ideyan varsa, onu burada təqdim et</h2><p>Fərdi və ya komanda şəklində qeydiyyatdan keç, tezisini və layihə faylını yüklə. Təsdiq məktubu e-poçtuna göndəriləcək.</p><div class="acts" style="margin-top:22px"><a class="btn reg" href="#qeydiyyat">Qeydiyyatdan keç →</a><a class="btn glass" href="#qaydalar">İştirak qaydaları</a></div></div>
+      <img src="assets/img/poster.jpg" alt="Forumun rəsmi posteri və qeydiyyat QR kodu" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ============ FORUM HAQQINDA ============ -->
+<section class="view" data-view="haqqinda">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Forum haqqında</div><h1>Forum haqqında</h1><p>Mingəçevirdə ilk dəfə keçirilən, tələbə elmi və innovasiyalarını sənaye ilə birləşdirən platforma.</p></div></div>
+  <div class="band">
+    <div class="wrap split">
+      <div>
+        <span class="kick">Konsepsiya</span>
+        <h2>Gələcəyin innovasiyalarını birlikdə yaradaq</h2>
+        <div style="display:grid;gap:14px;margin-top:18px;color:var(--mut);font-size:17px">
+          <p>“Tələbə Tədqiqatları və İnnovasiyalar üzrə I Mingəçevir Forumu” Mingəçevir Dövlət Universiteti və Mingəçevir Yüksək Texnologiyalar Parkının birgə təşkilatçılığı ilə keçirilir. Forum gənclərin elmi potensialını, innovativ ideyalarını və yaradıcı təşəbbüslərini bir araya gətirən yeni əməkdaşlıq platformasıdır.</p>
+          <p>Forum yalnız MDU-nun deyil, <b style="color:var(--ink)">Azərbaycanın bütün ali təhsil müəssisələrinin bakalavr tələbələri</b> üçün açıqdır. Komandalar mentorla birlikdə qoşula bilər.</p>
+          <p>Məqsədimiz gənc tədqiqatçıları, innovatorları, startap həvəskarlarını, elm və texnologiyaya marağı olan tələbələri bir araya gətirmək, onların ideyalarını real imkanlarla və sənaye nümayəndələri ilə əlaqələndirməkdir.</p>
+        </div>
+      </div>
+      <div class="ph"><img src="assets/img/lecture.jpg" alt="Tələbələrlə interaktiv görüş" loading="lazy"></div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Kimlər üçündür</span><h2>Forumun auditoriyası</h2></div></div>
+      <div class="grid g4">
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/></svg></div><h3>Bakalavr tələbələri</h3><p>Tədqiqatını və ya layihəsini təqdim etmək istəyən bütün kurs tələbələri.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h6M8 11h6"/></svg></div><h3>Tələbə komandaları</h3><p>Ortaq layihə üzərində işləyən 5 nəfərədək komandalar.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></div><h3>Startap həvəskarları</h3><p>İdeyasını prototipə və məhsula çevirmək istəyən tələbələr.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0-3.5 10.9V17h7v-3.1A6 6 0 0 0 12 3zM10 21h4"/></svg></div><h3>Mentorlar</h3><p>Komandaları istiqamətləndirən müəllimlər və mütəxəssislər.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Formatlar</span><h2>Bir forum, altı təcrübə</h2></div></div>
+      <div class="grid g3" id="formats"></div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap split">
+      <div>
+        <span class="kick">Bir il. Yeni universitet.</span>
+        <h2>Forumu qəbul edən kampus</h2>
+        <p class="lead" style="margin-top:16px">Son bir ildə MDU-da dam örtüyündən fasada, auditoriyalardan laboratoriyalara qədər geniş yenilənmə aparılıb.</p>
+        <div class="stats" style="grid-template-columns:repeat(2,minmax(0,1fr));margin-top:22px">
+          <div><b>600+</b><span>kompüter (əvvəl 238)</span></div>
+          <div><b>25</b><span>laboratoriya (əvvəl 14)</span></div>
+          <div><b>60</b><span>proyektor (əvvəl 18)</span></div>
+          <div><b>350</b><span>Mbit/s internet (əvvəl 100)</span></div>
+        </div>
+      </div>
+      <div class="ph" style="background:#0b2b7a"><video controls preload="none" poster="assets/img/aerial.jpg" style="width:100%;aspect-ratio:16/9"><source src="assets/img/mdu-video.mp4" type="video/mp4">Brauzeriniz videonu dəstəkləmir.</video></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ELMİ İSTİQAMƏTLƏR ============ -->
+<section class="view" data-view="istiqametler">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Elmi istiqamətlər</div><h1>Elmi istiqamətlər</h1><p>Tezis və layihələr aşağıdakı istiqamətlər üzrə qəbul olunur. Qeydiyyat zamanı birini seçin.</p></div></div>
+  <div class="band"><div class="wrap dirl" id="dir-full"></div></div>
+</section>
+
+<!-- ============ İŞTİRAK QAYDALARI ============ -->
+<section class="view" data-view="qaydalar">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / İştirak qaydaları</div><h1>İştirak qaydaları</h1><p>Kimlər, necə və hansı materiallarla iştirak edə bilər.</p></div></div>
+  <div class="band">
+    <div class="wrap">
+      <div class="steps">
+        <div><b>Qeydiyyat</b><span>Fərdi və ya komanda formasını doldurun.</span></div>
+        <div><b>Faylları yükləyin</b><span>Tezis və/və ya layihə təqdimatı.</span></div>
+        <div><b>Təsdiq məktubu</b><span>Müraciət nömrəsi e-poçtunuza gəlir.</span></div>
+        <div><b>Forumda təqdimat</b><span>27 noyabr 2026, MDU.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap grid g2">
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="4"/><path d="M2 21c1-4 4-6 7-6s6 2 7 6M17 11a3 3 0 1 0 0-6M22 20c-.5-2.5-2-4-4-4.6"/></svg></div><h3>Kimlər iştirak edə bilər</h3>
+        <ul class="ticks"><li><span>Azərbaycanın istənilən ali təhsil müəssisəsinin bakalavr tələbələri.</span></li><li><span><b>Fərdi</b> və ya <b>komanda</b> şəklində (komandada 5 nəfərədək).</span></li><li><span>Komandalar mentorla birlikdə qoşula bilər.</span></li></ul></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></div><h3>Elmi tezis tələbləri</h3>
+        <ul class="ticks"><li><span>Dil: Azərbaycan.</span></li><li><span>Struktur: başlıq, müəlliflər, universitet, mentor, annotasiya, açar sözlər, əsas nəticələr, ədəbiyyat.</span></li><li><span>Format: <b>PDF və ya DOCX</b>, 10 MB-a qədər.</span></li><li><span>Tezis orijinal olmalı, plagiat aşkarlanarsa müraciət nəzərə alınmır.</span></li></ul></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div><h3>Layihə və sərgi tələbləri</h3>
+        <ul class="ticks"><li><span>Təqdimat faylı: <b>PDF və ya PPTX</b>, 10 MB-a qədər.</span></li><li><span>Problem, həll, hədəf auditoriya, texnologiya və mərhələ göstərilməlidir.</span></li><li><span>Expo üçün prototip, demo və ya poster gətirilə bilər; elektrik ehtiyacını formada qeyd edin.</span></li></ul></div>
+      <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2l3 6.5 7 .9-5 4.9 1.2 7-6.2-3.4-6.2 3.4L7 14.3 2 9.4l7-.9z"/></svg></div><h3>Qiymətləndirmə meyarları</h3>
+        <ul class="ticks"><li><span><b>Yenilik</b> və elmi əsaslandırma</span></li><li><span><b>Tətbiq oluna bilmə</b> və praktik dəyər</span></li><li><span><b>Sosial və iqtisadi təsir</b></span></li><li><span><b>İnkişaf potensialı</b> və təqdimat keyfiyyəti</span></li></ul></div>
+    </div>
+  </div>
+  <div class="band"><div class="wrap"><p class="note">Uğurlu layihələr üçün mentorluq və Mingəçevir Yüksək Texnologiyalar Parkı ilə gələcək əməkdaşlıq imkanları nəzərdə tutulur. Suallar üçün: <a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a></p><div class="acts" style="margin-top:22px"><a class="btn reg" href="#qeydiyyat">Qeydiyyatdan keç →</a></div></div></div>
+</section>
+
+<!-- ============ FORUM PROQRAMI ============ -->
+<section class="view" data-view="proqram">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Forum proqramı</div><h1>Forum proqramı</h1><p>27 noyabr 2026 · 15:00-dan başlayaraq · Mingəçevir Dövlət Universiteti</p></div></div>
+  <div class="band">
+    <div class="wrap">
+      <p class="note" style="margin-bottom:22px">Sessiyaların dəqiq saatları və zallar üzrə bölgü təşkilat komitəsi tərəfindən təsdiqləndikdən sonra yenilənəcək.</p>
+      <ol class="tl" id="prog"></ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ İNNOVASİYA SƏRGİSİ ============ -->
+<section class="view" data-view="sergi">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / İnnovasiya sərgisi</div><h1>Innovation Expo</h1><p>Tələbə tədqiqatlarının, prototiplərin və startapların sərgisi.</p></div></div>
+  <div class="band">
+    <div class="wrap split">
+      <div>
+        <span class="kick">Nə sərgilənir</span>
+        <h2>İşləyən ideyalar, canlı nümayiş</h2>
+        <ul class="ticks">
+          <li><span><b>İşlək prototiplər:</b> robototexnika, IoT, mühəndislik və ağıllı sistemlər.</span></li>
+          <li><span><b>Rəqəmsal məhsullar:</b> proqram təminatı, mobil tətbiqlər, data və süni intellekt həlləri.</span></li>
+          <li><span><b>Startap və sosial innovasiya:</b> ekologiya, enerji, şəhər və cəmiyyət üçün yeni yanaşmalar.</span></li>
+          <li><span><b>Tədqiqat posterləri:</b> elmi nəticələrin vizual təqdimatı.</span></li>
+        </ul>
+        <div class="acts" style="margin-top:24px"><a class="btn reg" href="#qeydiyyat" data-pre="Innovation Expo">Stend üçün müraciət →</a></div>
+      </div>
+      <div class="ph"><img src="assets/img/bluegreen.jpg" alt="Tələbə ESG platformasını təqdim edir" loading="lazy"></div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">MDU tələbələrinin işləri</span><h2>Sərgidə görəcəyiniz layihələrdən nümunələr</h2></div></div>
+      <div class="grid g4">
+        <article class="pcard"><img src="assets/img/voltx.jpg" alt="VoltX" loading="lazy"><div class="b"><span class="tag">Enerji</span><h3>VoltX</h3><p>Ağıllı enerji idarəetmə paneli.</p></div></article>
+        <article class="pcard"><img src="assets/img/bluegreen.jpg" alt="BlueGreen" loading="lazy"><div class="b"><span class="tag">ESG</span><h3>BlueGreen</h3><p>Korporativ dayanıqlılıq monitorinqi.</p></div></article>
+        <article class="pcard"><img src="assets/img/cyber-hall.jpg" alt="Kiber yarış" loading="lazy"><div class="b"><span class="tag">Kibertəhlükəsizlik</span><h3>Cyber Summer School</h3><p>Komandaların kiber müdafiə yarışı.</p></div></article>
+        <article class="pcard"><img src="assets/img/greenlife.jpg" alt="Green Life" loading="lazy"><div class="b"><span class="tag">Ekologiya</span><h3>MSU Green Life</h3><p>Yaşıl kampus təşəbbüsləri.</p></div></article>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="ph"><img src="assets/img/teamwork.jpg" alt="Innovation Challenge komandası" loading="lazy"></div>
+      <div>
+        <span class="kick">Innovation Challenge</span>
+        <h2>Problemi seç. Komandanı qur. Həllini yarat.</h2>
+        <p class="lead" style="margin-top:14px">Ayrıca otaqda komandalar real problemi müəyyən edir, həll konsepsiyası qurur və qısa təqdimatla münsiflərə çıxır. Finalda Innovation Auction: ideyalar sənaye nümayəndələri qarşısında müdafiə olunur.</p>
+        <div class="chips"><span>Problem</span><span>İdeya</span><span>Komanda müzakirəsi</span><span>Həll konsepsiyası</span><span>Təqdimat və rəy</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PANEL MÜZAKİRƏLƏRİ ============ -->
+<section class="view" data-view="paneller">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Panel müzakirələri</div><h1>Panel müzakirələri</h1><p>Tələbələr, akademiklər və sənaye nümayəndələri aktual çağırışları müzakirə edir.</p></div></div>
+  <div class="band"><div class="wrap grid g3" id="panel-full"></div></div>
+  <div class="band alt">
+    <div class="wrap split">
+      <div>
+        <span class="kick">Industry Connect</span>
+        <h2>Universitet və sənaye eyni masa arxasında</h2>
+        <p class="lead" style="margin-top:14px">Davos formatında görüş: bir moderator və üç sənaye rəhbəri tələbələrlə açıq dialoq aparır. Mövzular: real sektorun ehtiyacları, gələcəyin peşələri, texnoloji trendlər və təcrübə imkanları.</p>
+        <div class="chips"><span>1 moderator</span><span>3 sənaye rəhbəri</span><span>Açıq sual-cavab</span></div>
+      </div>
+      <div class="ph"><img src="assets/img/career-fair.jpg" alt="Tələbələr və işəgötürənlər karyera sərgisində" loading="lazy"></div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap split">
+      <div class="ph"><img src="assets/img/holberton.jpg" alt="AI proqramının sertifikatlı iştirakçıları" loading="lazy"></div>
+      <div>
+        <span class="kick">Süni intellekt təlimləri</span>
+        <h2>Türkiyəli professorlardan hibrid AI təlimləri</h2>
+        <p class="lead" style="margin-top:14px">Forum çərçivəsində Orta Doğu Teknik Universiteti və Kahramanmaraş Universitetinin professorlarının süni intellekt üzrə təlimlərində hibrid formada, ödənişli əsasla iştirak imkanı.</p>
+        <div class="chips"><span>Hibrid</span><span>Ödənişli</span><span>ODTÜ</span><span>Kahramanmaraş Universiteti</span></div>
+        <div class="acts" style="margin-top:22px"><a class="btn reg" href="#qeydiyyat" data-pre="AI təlimi">AI təliminə yazıl →</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TƏRƏFDAŞLAR ============ -->
+<section class="view" data-view="terefdaslar">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Tərəfdaşlar</div><h1>Tərəfdaşlar</h1><p>Forumu birlikdə ərsəyə gətirən təşkilatlar.</p></div></div>
+  <div class="band">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Təşkilatçılar</span><h2>Forumun təşkilatçıları</h2></div></div>
+      <div class="org">
+        <div class="card"><div class="lg"><img src="assets/img/emblem.jpg" alt=""></div><div><h3>Mingəçevir Dövlət Universiteti</h3><p>Forumun ev sahibi. Universitetin nəzdində Süni İntellekt və Rəqəmsal Texnologiyalar İnstitutu fəaliyyət göstərir; son ildə onlarla hakaton və startap yarışı keçirilib.</p><a class="more" href="https://mdu.edu.az/">mdu.edu.az ↗</a></div></div>
+        <div class="card"><div class="lg">YTP</div><div><h3>Mingəçevir Yüksək Texnologiyalar Parkı</h3><p>2015-ci ildə Prezident fərmanı ilə yaradılıb. Burada Simbioz texnologiya biznes inkubatoru tələbələr, gənc tədqiqatçılar, magistr və doktorantlar üçün fəaliyyət göstərir.</p></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap split">
+      <div class="ph"><img src="assets/img/htech.jpg" alt="HTech Invest binası, Mingəçevir YTP rezidenti" loading="lazy" style="aspect-ratio:auto"></div>
+      <div>
+        <span class="kick">Texnopark ekosistemi</span>
+        <h2>İdeyadan “Made in Azerbaijan” məhsuluna</h2>
+        <ul class="ticks">
+          <li><span><b>HTech Invest</b> parkın rezidenti kimi kompüter və noutbuk istehsal edir.</span></li>
+          <li><span><b>Iglime</b> istixanalar üçün torpaq temperaturu və rütubət ölçən cihazlar hazırlayır.</span></li>
+          <li><span>Rezidentlər qanunvericiliyə uyğun olaraq <b>vergi və gömrük güzəştlərindən</b> yararlanır.</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="band">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Akademik tərəfdaşlar</span><h2>AI təlimləri</h2></div></div>
+      <div class="grid g2">
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><h3>Orta Doğu Teknik Universiteti (ODTÜ)</h3><p>Ankara. Süni intellekt üzrə hibrid təlimlər.</p></div>
+        <div class="card"><div class="ic"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><h3>Kahramanmaraş Universiteti</h3><p>Süni intellekt və maşın öyrənmə üzrə təlimlər.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Media dəstəyi</span><h2>İnformasiya tərəfdaşları</h2></div></div>
+      <div class="media"><img src="assets/img/media-logos.jpg" alt="Media tərəfdaşlarının loqoları" loading="lazy"></div>
+      <div class="mlist" id="mlist"></div>
+      <p class="note" style="margin-top:26px">Forumun tərəfdaşı olmaq istəyirsiniz? Yazın: <a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a> · <a href="tel:+994507307908">+994 50 730 79 08</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ XƏBƏRLƏR VƏ QALEREYA ============ -->
+<section class="view" data-view="xeberler">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Xəbərlər və qalereya</div><h1>Xəbərlər və qalereya</h1><p>Forum və MDU-nun innovasiya həyatından son yeniliklər.</p></div></div>
+  <div class="band">
+    <div class="wrap">
+      <div class="filters" id="nfil" role="group" aria-label="Xəbər kateqoriyası"></div>
+      <div class="grid g3 news" id="news-full"></div>
+    </div>
+  </div>
+  <div class="band alt">
+    <div class="wrap">
+      <div class="head"><div><span class="kick">Qalereya</span><h2>Fotolarda MDU</h2></div><p class="lead">Şəkli böyütmək üçün üzərinə klikləyin.</p></div>
+      <div class="gal" id="gal"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ƏLAQƏ ============ -->
+<section class="view" data-view="elaqe">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Əlaqə</div><h1>Əlaqə</h1><p>Suallarınız üçün forum koordinatoru və MDU ilə əlaqə saxlayın.</p></div></div>
+  <div class="band">
+    <div class="wrap">
+      <div class="cgrid">
+        <div class="card cc"><small>Forum koordinatoru</small><b>Aidə Mustafayeva</b><p>Riyaziyyat və İnformasiya Texnologiyaları fakültəsinin dekanı</p><p><a href="tel:+994507307908">+994 50 730 79 08</a><br><a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a></p></div>
+        <div class="card cc"><small>Mingəçevir Dövlət Universiteti</small><b>D. Əliyeva küçəsi 21, Mingəçevir AZ4500</b><p><a href="tel:+994242773272">(+994 24) 277-32-72</a><br><a href="mailto:info@mdu.edu.az">info@mdu.edu.az</a></p></div>
+        <div class="card cc"><small>Rəsmi sayt və sosial şəbəkələr</small><a href="https://mdu.edu.az/">www.mdu.edu.az</a><p>Bütün platformalarda: <b style="font-size:15px">@mdueduaz</b></p><div class="fsoc" id="soc-c"></div></div>
+      </div>
+      <div class="mapc" style="margin-top:18px">
+        <img src="assets/img/aerial.jpg" alt="" loading="lazy">
+        <h3>Kürün sahilində görüşürük</h3>
+        <p style="color:#d6e4ff;margin:6px 0 16px">Mingəçevir Dövlət Universiteti, D. Əliyeva küçəsi 21</p>
+        <a class="btn reg" style="justify-self:start" href="https://www.google.com/maps/search/?api=1&query=Ming%C9%99%C3%A7evir+D%C3%B6vl%C9%99t+Universiteti">Xəritədə aç ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QEYDİYYAT ============ -->
+<section class="view" data-view="qeydiyyat">
+  <div class="phead"><div class="wrap"><div class="crumb"><a href="#ana">Ana səhifə</a> / Qeydiyyat</div><h1>Qeydiyyat</h1><p>Fərdi və ya komanda şəklində qeydiyyatdan keçin, tezisinizi və layihə faylınızı yükləyin.</p></div></div>
+  <div class="band">
+    <div class="wrap regl">
+      <form class="f" id="regf" novalidate>
+        <fieldset>
+          <legend>1. Qeydiyyat növü</legend>
+          <div class="seg">
+            <label><input type="radio" name="tip" value="Fərdi" checked> Fərdi iştirak</label>
+            <label><input type="radio" name="tip" value="Komanda"> Komanda ilə iştirak</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend id="lg-person">2. Şəxsi məlumatlar</legend>
+          <div class="f2">
+            <label class="fl" for="r-ad">Ad və soyad <i>*</i><input id="r-ad" name="ad" required autocomplete="name"></label>
+            <label class="fl" for="r-email">E-poçt <i>*</i><input id="r-email" name="email" type="email" required autocomplete="email"></label>
+          </div>
+          <div class="f2">
+            <label class="fl" for="r-tel">Telefon <i>*</i><input id="r-tel" name="telefon" type="tel" required autocomplete="tel" placeholder="+994 __ ___ __ __"></label>
+            <label class="fl" for="r-uni">Universitet <i>*</i><input id="r-uni" name="universitet" required list="unis"></label>
+          </div>
+          <div class="f2">
+            <label class="fl" for="r-fak">Fakültə / ixtisas<input id="r-fak" name="fakulte"></label>
+            <label class="fl" for="r-pille">Kurs (bakalavr) <i>*</i><select id="r-pille" name="pille" required><option value="">Seçin</option><option>1-ci kurs</option><option>2-ci kurs</option><option>3-cü kurs</option><option>4-cü kurs</option><option>5-ci kurs</option></select></label>
+          </div>
+          <label class="fl" for="r-rehber">Mentor (ad, vəzifə)<input id="r-rehber" name="rehber"></label>
+        </fieldset>
+        <fieldset id="teamset" hidden>
+          <legend>3. Komanda</legend>
+          <label class="fl" for="r-team">Komandanın adı <i>*</i><input id="r-team" name="komanda"></label>
+          <div class="hint">Komanda üzvləri (sizdən başqa, 4 nəfərədək): ad soyad, universitet, e-poçt</div>
+          <div id="members" style="display:grid;gap:8px"></div>
+          <button class="btn line" type="button" id="addm" style="justify-self:start;min-height:44px">+ Üzv əlavə et</button>
+        </fieldset>
+        <fieldset>
+          <legend id="lg-part">3. İştirak</legend>
+          <div class="hint">İştirak formatı (bir neçəsini seçə bilərsiniz) <i style="color:#d6334a;font-style:normal">*</i></div>
+          <div class="checks" id="fmt">
+            <label><input type="checkbox" name="format" value="Elmi məruzə (tezis)"> Elmi məruzə (tezis)</label>
+            <label><input type="checkbox" name="format" value="Innovation Expo"> Innovation Expo (stend)</label>
+            <label><input type="checkbox" name="format" value="Innovation Challenge"> Innovation Challenge</label>
+            <label><input type="checkbox" name="format" value="Industry Connect"> Industry Connect</label>
+            <label><input type="checkbox" name="format" value="Panel dinləyicisi"> Panel dinləyicisi</label>
+            <label><input type="checkbox" name="format" value="AI təlimi"> AI təlimi</label>
+          </div>
+          <div class="f2">
+            <label class="fl" for="r-ist">Elmi istiqamət <i>*</i><select id="r-ist" name="istiqamet" required><option value="">Seçin</option></select></label>
+            <label class="fl" for="r-title">Tezis / layihənin adı<input id="r-title" name="basliq"></label>
+          </div>
+          <label class="fl" for="r-abs">Qısa annotasiya <span class="hint" id="wc">0 söz</span><textarea id="r-abs" name="annotasiya" placeholder="Hansı problemi həll edir, metod və ya texnologiya, əsas nəticə, hazırkı mərhələ"></textarea></label>
+        </fieldset>
+        <fieldset>
+          <legend id="lg-files">4. Fayllar</legend>
+          <div class="f2">
+            <label class="fl" for="r-f1">Elmi tezis (PDF, DOCX · 10 MB)<input id="r-f1" type="file" accept=".pdf,.doc,.docx"></label>
+            <label class="fl" for="r-f2">Layihə təqdimatı (PDF, PPTX · 10 MB)<input id="r-f2" type="file" accept=".pdf,.ppt,.pptx"></label>
+          </div>
+          <label class="fl" for="r-note">Əlavə qeyd (məs. stend üçün elektrik, ekran ehtiyacı)<input id="r-note" name="qeyd"></label>
+        </fieldset>
+        <label class="agree"><input type="checkbox" id="r-agree"> <span>Məlumatlarımın forumun təşkili məqsədilə emal olunmasına razıyam və təqdim etdiyim işin orijinal olduğunu təsdiq edirəm.</span></label>
+        <button class="btn reg" type="submit" id="sbtn" style="justify-self:start">Müraciəti göndər →</button>
+        <div class="msg" id="rmsg" role="status" aria-live="polite"></div>
+      </form>
+      <aside class="aside">
+        <div class="poster"><img src="assets/img/poster.jpg" alt="Forum posteri, qeydiyyat QR kodu ilə"></div>
+        <div class="card"><h3>Alternativ qeydiyyat</h3><p>Posterdəki QR kodu skan edin və ya rəsmi qeydiyyat səhifəsini açın.</p><div class="acts" style="margin-top:14px"><a class="btn blue" id="gform" href="#">Qeydiyyat səhifəsi ↗</a></div><p style="margin-top:10px">Qısa link: <a href="https://tinyurl.com/MDUForum2026">tinyurl.com/MDUForum2026</a></p></div>
+        <div class="card"><h3>Sualınız var?</h3><p>Aidə Mustafayeva<br><a href="tel:+994507307908">+994 50 730 79 08</a><br><a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a></p></div>
+      </aside>
+    </div>
+  </div>
+  <datalist id="unis"><option>Mingəçevir Dövlət Universiteti</option><option>Bakı Dövlət Universiteti</option><option>Azərbaycan Texniki Universiteti</option><option>Azərbaycan Dövlət İqtisad Universiteti (UNEC)</option><option>Azərbaycan Dövlət Neft və Sənaye Universiteti</option><option>ADA Universiteti</option><option>Gəncə Dövlət Universiteti</option><option>Sumqayıt Dövlət Universiteti</option><option>Azərbaycan Dövlət Pedaqoji Universiteti</option><option>Bakı Mühəndislik Universiteti</option><option>Azərbaycan Texnologiya Universiteti</option><option>Qarabağ Universiteti</option><option>Lənkəran Dövlət Universiteti</option><option>Naxçıvan Dövlət Universiteti</option></datalist>
+</section>
+</main>
+
+<footer>
+  <div class="wrap ft">
+    <div><img class="lg" src="assets/img/logo-full.jpg" alt="TTİF loqosu"><p>I Tələbə Tədqiqatları və İnnovasiyalar Forumu. <br> Mingəçevir Dövlət Universiteti <br> Mingəçevir Yüksək Texnologiyalar Parkı.</p><div class="fsoc" id="soc-f"></div></div>
+    <div><h4>Forum</h4><a href="#haqqinda">Forum haqqında</a><a href="#istiqametler">Elmi istiqamətlər</a><a href="#qaydalar">İştirak qaydaları</a><a href="#proqram">Forum proqramı</a><a href="#qeydiyyat">Qeydiyyat</a></div>
+    <div><h4>Proqram</h4><a href="#sergi">İnnovasiya sərgisi</a><a href="#paneller">Panel müzakirələri</a><a href="#terefdaslar">Tərəfdaşlar</a><a href="#xeberler">Xəbərlər və qalereya</a><a href="#elaqe">Əlaqə</a></div>
+    <div><h4>Əlaqə</h4><a href="tel:+994507307908">+994 50 730 79 08</a><a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a><a href="tel:+994242773272">(+994 24) 277-32-72</a><a href="https://mdu.edu.az/">www.mdu.edu.az</a></div>
+  </div>
+  <div class="wrap copy"><span>© 2026 TTİF · Mingəçevir Dövlət Universiteti</span><span>27.11.2026 · Mingəçevir</span></div>
+</footer>
+<button class="totop" id="totop" aria-label="Yuxarı qalx">↑</button>
+
+<dialog class="lb" id="lb"><figure><img id="lbi" alt=""><figcaption><span id="lbc"></span><div><button type="button" id="lbp" aria-label="Əvvəlki">‹</button><button type="button" id="lbn" aria-label="Növbəti">›</button><button type="button" id="lbx" aria-label="Bağla">✕</button></div></figcaption></figure></dialog>
+
+<script src="assets/data.js"></script>
+<script>
+{
+/* ===== Qeydiyyat ünvanı (Google Apps Script) ===== */
+const ENDPOINT="https://script.google.com/macros/s/AKfycbw6pvLuOtXqHZ4BU5jkWxI4s2Mueqo_AyQ_8BiNgJQcH0m6mrB4enxWtoaK2QKynqBg/exec";
+const MAXF=10*1024*1024;
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const NEWS=window.TTIF_NEWS||[],GAL=window.TTIF_GALLERY||[];
+
+const SOC=[["https://www.facebook.com/mdueduaz","Facebook","fb"],["https://www.instagram.com/mdueduaz","Instagram","ig"],["https://x.com/mdueduaz","X","x"],["https://www.linkedin.com/school/mdueduaz","LinkedIn","in"],["https://www.tiktok.com/@mdueduaz","TikTok","tt"],["https://www.youtube.com/@mdueduaz","YouTube","yt"],["https://t.me/mdueduaz","Telegram","tg"]];
+const socH=SOC.map(([u,n,i])=>`<a href="${u}" aria-label="${n}"><svg><use href="#i-${i}"/></svg></a>`).join('');
+['#soc-top','#soc-f','#soc-c'].forEach(s=>{const e=$(s);if(e)e.innerHTML=socH});
+
+const DIR=[
+ ["Süni intellekt və rəqəmsal texnologiyalar","assets/img/voltx.jpg","Maşın öyrənmə, böyük data, rəqəmsal platformalar və avtomatlaşdırma.",["Maşın öyrənmə","Generativ AI","Data analitikası","Proqram təminatı"]],
+ ["Mühəndislik və robototexnika","assets/img/lab.jpg","Ağıllı sistemlər, IoT, avtomatika və işlək prototiplər.",["IoT","Robototexnika","Avtomatika","Sənaye 4.0"]],
+ ["Enerji və yaşıl texnologiyalar","assets/img/bluegreen.jpg","Bərpa olunan enerji, enerji səmərəliliyi və dayanıqlı istehsal.",["Günəş enerjisi","Enerji saxlama","ESG","Səmərəlilik"]],
+ ["Kibertəhlükəsizlik","assets/img/cyber-hall.jpg","Şəbəkə və məlumat təhlükəsizliyi, rəqəmsal etibarlılıq.",["Şəbəkə müdafiəsi","Kriptoqrafiya","CTF","Rəqəmsal etibar"]],
+ ["Ekologiya, aqrar və biotexnologiya","assets/img/greenlife.jpg","Biomüxtəliflik, torpağın bərpası, ağıllı kənd təsərrüfatı.",["Ağıllı aqro-sensorlar","Su resursları","Biotexnologiya","Dronlar"]],
+ ["İqtisadiyyat, sahibkarlıq və startaplar","assets/img/career-fair.jpg","Biznes modelləri, KOS-ların inkişafı və innovasiya iqtisadiyyatı.",["Startap","Fintex","Marketinq","Biznes plan"]],
+ ["Təhsil və gələcəyin universiteti","assets/img/smartclass.jpg","Rəqəmsal təhsil, AI ilə öyrənmə, yeni tədris modelləri.",["EdTech","Hibrid təhsil","Pedaqoji innovasiya","Mikro-sertifikat"]],
+ ["Ağıllı şəhər və sosial innovasiya","assets/img/teamwork.jpg","Şəhər həlləri, rəqəmsal idarəetmə və sosial sahibkarlıq.",["Ağıllı şəhər","Nəqliyyat","Sosial sahibkarlıq","Rəqəmsal idarəetmə"]]
+];
+$('#dir-home').innerHTML=DIR.map((d,i)=>`<a class="dir" href="#istiqametler"><img src="${d[1]}" alt="" loading="lazy"><span class="no">${String(i+1).padStart(2,'0')}</span><div class="b"><h3>${d[0]}</h3><p>${d[2]}</p></div></a>`).join('');
+$('#dir-full').innerHTML=DIR.map((d,i)=>`<article class="dirrow"><img src="${d[1]}" alt="" loading="lazy"><div class="b"><span class="kick" style="margin:0">İstiqamət ${i+1}</span><h3 style="font-size:22px">${d[0]}</h3><p>${d[2]}</p><div class="chips">${d[3].map(c=>`<span>${c}</span>`).join('')}</div></div></article>`).join('');
+$('#r-ist').insertAdjacentHTML('beforeend',DIR.map(d=>`<option>${d[0]}</option>`).join(''));
+
+const PAN=[
+ ["Panel 1","Ağıllı şəhər, süni intellekt və rəqəmsal infrastrukturun innovativ həlləri","Ağıllı şəhər platformaları, süni intellekt əsaslı idarəetmə, IoT və rəqəmsal infrastrukturun dayanıqlılığı."],
+ ["Panel 2","Riyazi modelləşdirmə, geoinformasiya və ekoloji dayanıqlı şəhər həlləri","Riyazi modellər, GIS və məkan analitikası, ekoloji monitorinq və dayanıqlı şəhərsalma həlləri."],
+ ["Panel 3","Riyaziyyatın gündəlik həyatda tətbiqi, rəqəmsal təhsil və innovativ öyrənmə texnologiyaları","Riyaziyyatın praktik tətbiqləri, rəqəmsal təhsil platformaları və yeni öyrənmə texnologiyaları."]
+];
+$('#panel-home').innerHTML=PAN.map(p=>`<div class="card" style="padding:18px 20px"><span class="kick" style="margin:0;font-size:13px">${p[0]}</span><h3 style="font-size:17px">${p[1]}</h3></div>`).join('');
+const PIMG=["assets/img/voltx.jpg","assets/img/aerial.jpg","assets/img/smartclass.jpg"];
+$('#panel-full').innerHTML=PAN.map((p,i)=>`<article class="pcard"><img src="${PIMG[i]}" alt="" loading="lazy"><div class="b"><span class="tag">${p[0]}</span><h3>${p[1]}</h3><p>${p[2]}</p><p style="flex:0"><b style="color:var(--ink)">Format:</b> moderator, panelistlər və açıq mikrofon.</p></div></article>`).join('');
+
+const SPK=[["Açılış nitqi","MDU rəhbərliyi"],["Moderator","Industry Connect sessiyası"],["Sənaye rəhbərləri","Üç aparıcı şirkətdən"],["AI təlimçiləri","ODTÜ və Kahramanmaraş Universiteti"]];
+$('#spk-home').innerHTML=SPK.map(s=>`<div class="spk"><div class="av"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4.5 4-7 8-7s7 2.5 8 7"/></svg></div><b>${s[0]}</b><span>${s[1]}</span></div>`).join('');
+
+const FMT=[["Innovation Expo","Tələbə tədqiqatları, prototiplər, proqram təminatı və startapların sərgisi.","assets/img/voltx.jpg"],["Innovation Challenge","Komandalar problemi seçir, həll qurur və təqdim edir.","assets/img/teamwork.jpg"],["Industry Connect","Sənaye və biznes nümayəndələri ilə birbaşa ünsiyyət.","assets/img/career-fair.jpg"],["Süni intellekt təlimləri","ODTÜ və Kahramanmaraş Universitetinin professorları ilə hibrid, ödənişli təlimlər.","assets/img/holberton.jpg"],["Future University","Gələcəyin universiteti mövzusunda strateji debat.","assets/img/smartclass.jpg"],["Innovation Auction","Final: ideyalar münsiflər və sənaye nümayəndələri qarşısında.","assets/img/auditorium.jpg"]];
+$('#formats').innerHTML=FMT.map(f=>`<article class="pcard"><img src="${f[2]}" alt="" loading="lazy"><div class="b"><h3>${f[0]}</h3><p>${f[1]}</p></div></article>`).join('');
+
+const PROG=[["15:00","Qeydiyyat və Innovation Expo","Qonaqların qarşılanması, sərgi stendləri ilə tanışlıq.","Foye"],["","Rəsmi açılış","Təşkilatçıların çıxışları, forumun məqsəd və prioritetləri.","Akt zalı"],["","Panel müzakirələri","Ağıllı şəhər və süni intellekt · Riyazi modelləşdirmə və geoinformasiya · Riyaziyyat və rəqəmsal təhsil.","Akt zalı"],["","Innovation Challenge","Komandaların ideya marafonu.","Ayrıca otaq"],["","Industry Connect","Moderator və üç sənaye rəhbəri ilə Davos formatında dialoq.","Konfrans zalı"],["","Future University","Strateji debat.","Konfrans zalı"],["","Innovation Auction və bağlanış","İdeyaların müdafiəsi, mükafatlandırma, xatirə fotosu.","Akt zalı"]];
+$('#prog').innerHTML=PROG.map((p,i)=>`<li><div class="tm">${p[0]||'Blok '+(i+1)}<small>${p[0]?'Başlanğıc':'Saat dəqiqləşir'}</small></div><div><h3>${p[1]}</h3><p>${p[2]}</p><span class="where">${p[3]}</span></div></li>`).join('');
+
+$('#mlist').innerHTML=["AZƏRTAC","Azərbaycan Müəllimi","təhsil.tv","oxu.az","Report","Yeniçağ","7news.az","Xalq qəzeti","Azərbaycan Universitetləri","Unikal.az","Regional Təhsil Portalı","azedu","Günboyu","Kanal 32"].map(m=>`<span>${m}</span>`).join('');
+
+/* news */
+const card=n=>`<article class="pcard">${n.img?`<img src="${esc(n.img)}" alt="" loading="lazy">`:`<div class="noimg">${esc(n.c)}</div>`}<div class="b"><div class="d"><span class="tag">${esc(n.c)}</span><span>${esc(n.d)}</span></div><h3>${esc(n.t)}</h3><p>${esc(n.p)}</p>${n.u?`<a class="more" href="${esc(n.u)}">${n.u.startsWith('#')?'Ətraflı →':'Ətraflı oxu ↗'}</a>`:''}</div></article>`;
+$('#news-home').innerHTML=NEWS.slice(0,3).map(card).join('');
+const cats=['Hamısı',...new Set(NEWS.map(n=>n.c))];
+const rn=c=>{$('#news-full').innerHTML=NEWS.filter(n=>c==='Hamısı'||n.c===c).map(card).join('');$$('#nfil button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.c===c))};
+$('#nfil').innerHTML=cats.map(c=>`<button type="button" data-c="${esc(c)}">${esc(c)}</button>`).join('');
+$('#nfil').addEventListener('click',e=>{const b=e.target.closest('button');if(b)rn(b.dataset.c)});rn('Hamısı');
+
+/* gallery + lightbox */
+$('#gal').innerHTML=GAL.map((g,i)=>`<button type="button" data-i="${i}"><img src="${esc(g.img)}" alt="${esc(g.t)}" loading="lazy"><span>${esc(g.t)}</span></button>`).join('');
+const lb=$('#lb');let gi=0;
+const show=i=>{gi=(i+GAL.length)%GAL.length;$('#lbi').src=GAL[gi].img;$('#lbi').alt=GAL[gi].t;$('#lbc').textContent=GAL[gi].t};
+$('#gal').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;show(+b.dataset.i);try{lb.showModal()}catch(_){lb.setAttribute('open','')}});
+$('#lbp').onclick=()=>show(gi-1);$('#lbn').onclick=()=>show(gi+1);$('#lbx').onclick=()=>lb.close();
+lb.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(gi-1);if(e.key==='ArrowRight')show(gi+1)});
+lb.addEventListener('click',e=>{if(e.target===lb)lb.close()});
+
+/* router */
+const VIEWS=$$('.view').map(v=>v.dataset.view);
+const menu=$('#menu'),shade=$('#shade'),burger=$('#burger');
+const closeMenu=()=>{menu.classList.remove('open');shade.classList.remove('on');burger.setAttribute('aria-expanded','false')};
+function route(){
+  const h=location.hash.slice(1),v=VIEWS.includes(h)?h:'ana';
+  $$('.view').forEach(s=>s.classList.toggle('on',s.dataset.view===v));
+  $$('nav.menu a').forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+v));
+  document.title=(v==='ana'?'TTİF 2026 Mingəçevir':$('nav.menu a[href="#'+v+'"]')?.textContent+' · TTİF 2026')||'TTİF 2026';
+  closeMenu();window.scrollTo({top:0,behavior:'instant'});
+  if(v==='ana')startWaves();
+}
+addEventListener('hashchange',route);
+burger.onclick=()=>{menu.classList.add('open');shade.classList.add('on');burger.setAttribute('aria-expanded','true')};
+$('#close').onclick=closeMenu;shade.onclick=closeMenu;
+addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu()});
+document.addEventListener('click',e=>{const a=e.target.closest('a[data-pre]');if(a){const v=a.dataset.pre;$$('#fmt input').forEach(c=>{if(c.value.startsWith(v.split(' ')[0]))c.checked=true})}});
+const tt=$('#totop');addEventListener('scroll',()=>tt.classList.toggle('on',scrollY>700),{passive:true});tt.onclick=()=>scrollTo({top:0,behavior:'smooth'});
+
+/* countdown */
+const T=new Date('2026-11-27T15:00:00+04:00').getTime(),pad=n=>String(n).padStart(2,'0');
+function tick(){const s=Math.max(0,Math.floor((T-Date.now())/1000));if(!s)$('#cdl').textContent='Forum başladı!';
+ const v={d:Math.floor(s/86400),h:pad(Math.floor(s%86400/3600)),m:pad(Math.floor(s%3600/60)),s:pad(s%60)};
+ $$('[data-cd]').forEach(e=>e.textContent=v[e.dataset.cd])}
+tick();setInterval(tick,1000);
+
+/* hero particle waves (poster style) */
+const cv=$('#waves'),cx=cv.getContext('2d');let raf=0,t0=0;
+const still=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function frame(t){
+  const W=cv.clientWidth,H=cv.clientHeight,dpr=Math.min(devicePixelRatio||1,2);
+  if(cv.width!==W*dpr){cv.width=W*dpr;cv.height=H*dpr}
+  cx.setTransform(dpr,0,0,dpr,0,0);cx.clearRect(0,0,W,H);
+  const k=t/2400,cols=Math.ceil(W/14);
+  for(let L=0;L<3;L++){
+    const base=H*(.8+L*.07),amp=H*(.05+L*.02),col=['#5fe6f5','#3d8bff','#8a7dff'][L];
+    cx.fillStyle=col;
+    for(let r=0;r<9;r++){
+      cx.globalAlpha=.55-r*.05-L*.1;
+      for(let i=0;i<=cols;i++){const x=i*14,y=base+r*7+Math.sin(i*.09+k+L*1.7+r*.15)*amp*Math.sin(k*.6+L)+Math.cos(i*.035-k)*amp*.5;cx.beginPath();cx.arc(x,y,1.25,0,6.283);cx.fill()}
+    }
+  }
+  cx.globalAlpha=1;
+  if(!still&&$('[data-view=ana]').classList.contains('on'))raf=requestAnimationFrame(frame);
+}
+function startWaves(){cancelAnimationFrame(raf);raf=requestAnimationFrame(frame)}
+
+/* registration form */
+$('#gform').href=ENDPOINT;
+const team=$('#teamset'),mem=$('#members');
+const addM=()=>{if(mem.children.length>=4)return;mem.insertAdjacentHTML('beforeend',`<div class="member"><input placeholder="Ad soyad" aria-label="Üzvün adı"><input placeholder="Universitet" aria-label="Üzvün universiteti"><input type="email" placeholder="E-poçt" aria-label="Üzvün e-poçtu"><button type="button" aria-label="Üzvü sil">✕</button></div>`);$('#addm').hidden=mem.children.length>=4};
+$('#addm').onclick=addM;mem.addEventListener('click',e=>{if(e.target.tagName==='BUTTON'){e.target.parentElement.remove();$('#addm').hidden=false}});
+const setTip=()=>{const isT=$('input[name=tip]:checked').value==='Komanda';team.hidden=!isT;$('#lg-person').textContent=isT?'2. Komanda lideri':'2. Şəxsi məlumatlar';$('#lg-part').textContent=(isT?'4':'3')+'. İştirak';$('#lg-files').textContent=(isT?'5':'4')+'. Fayllar';if(isT&&!mem.children.length)addM()};
+$$('input[name=tip]').forEach(r=>r.onchange=setTip);
+$('#r-abs').oninput=e=>{const n=e.target.value.trim().split(/\s+/).filter(Boolean).length;$('#wc').textContent=n+' söz'};
+const toB64=f=>new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(String(r.result).split(',')[1]);r.onerror=rej;r.readAsDataURL(f)});
+const msg=(c,h)=>{const m=$('#rmsg');m.className='msg '+c;m.innerHTML=h;m.scrollIntoView({block:'nearest',behavior:'smooth'})};
+$('#regf').addEventListener('submit',async e=>{
+  e.preventDefault();
+  const req=['#r-ad','#r-email','#r-tel','#r-uni','#r-pille','#r-ist'];const isT=!team.hidden;if(isT)req.push('#r-team');
+  for(const s of req){const el=$(s);if(!el.value.trim()||(el.type==='email'&&!el.checkValidity())){el.focus();el.style.borderColor='#d6334a';return msg('err','Zəhmət olmasa, ulduzla işarələnmiş sahələri düzgün doldurun.')}el.style.borderColor=''}
+  const fm=$$('#fmt input:checked').map(c=>c.value);if(!fm.length)return msg('err','Ən azı bir iştirak formatı seçin.');
+  if(!$('#r-agree').checked)return msg('err','Davam etmək üçün razılıq xanasını işarələyin.');
+  const files=[];
+  for(const [id,kind] of [['#r-f1','Tezis'],['#r-f2','Təqdimat']]){const f=$(id).files[0];if(!f)continue;if(f.size>MAXF)return msg('err',`${kind} faylı 10 MB-dan böyükdür.`);files.push({tip:kind,ad:f.name,mime:f.type||'application/octet-stream',data:await toB64(f)})}
+  const members=$$('#members .member').map(m=>{const i=m.querySelectorAll('input');return{ad:i[0].value.trim(),universitet:i[1].value.trim(),email:i[2].value.trim()}}).filter(m=>m.ad);
+  const data={tip:$('input[name=tip]:checked').value,ad:$('#r-ad').value.trim(),email:$('#r-email').value.trim(),telefon:$('#r-tel').value.trim(),universitet:$('#r-uni').value.trim(),fakulte:$('#r-fak').value.trim(),pille:$('#r-pille').value,rehber:$('#r-rehber').value.trim(),komanda:isT?$('#r-team').value.trim():'',uzvler:isT?members:[],format:fm,istiqamet:$('#r-ist').value,basliq:$('#r-title').value.trim(),annotasiya:$('#r-abs').value.trim(),qeyd:$('#r-note').value.trim(),fayllar:files,menbe:location.href};
+  const b=$('#sbtn');b.disabled=true;msg('wait','Müraciət göndərilir, faylların ölçüsündən asılı olaraq bir neçə saniyə çəkə bilər…');
+  try{
+    const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data)});
+    const j=await r.json();
+    if(!j.ok)throw new Error(j.error||'server');
+    msg('ok',`<b>Müraciətiniz qəbul edildi!</b><br>Müraciət nömrəniz: <b>${esc(j.id)}</b>. Təsdiq məktubu <b>${esc(data.email)}</b> ünvanına göndərildi. Məktubu görmürsünüzsə, “Spam” qovluğunu yoxlayın.`);
+    $('#regf').reset();mem.innerHTML='';setTip();
+  }catch(err){
+    msg('err',`Müraciəti göndərmək alınmadı. Bir az sonra yenidən cəhd edin və ya <a href="${ENDPOINT}">rəsmi qeydiyyat səhifəsindən</a> qeydiyyatdan keçin. Problem davam edərsə: <a href="mailto:aida.mustafayeva@mdu.edu.az">aida.mustafayeva@mdu.edu.az</a>`);
+  }finally{b.disabled=false}
+});
+
+/* hero video controls */
+const hv=$('#hv');
+$('#hv-snd').onclick=e=>{hv.muted=!hv.muted;if(!hv.muted)hv.play().catch(()=>{});const b=e.currentTarget;b.setAttribute('aria-pressed',String(!hv.muted));b.querySelector('span').textContent=hv.muted?'Səsi aç':'Səsi bağla';$('#hv-x').style.display=hv.muted?'':'none'};
+$('#hv-pp').onclick=e=>{if(hv.paused){hv.play().catch(()=>{});$('#hv-pi').setAttribute('d','M8 5v14M16 5v14');e.currentTarget.setAttribute('aria-label','Dayandır')}else{hv.pause();$('#hv-pi').setAttribute('d','M7 4l13 8-13 8z');e.currentTarget.setAttribute('aria-label','Oynat')}};
+if(matchMedia('(prefers-reduced-motion: reduce)').matches){hv.removeAttribute('autoplay');hv.pause()}
+
+route();
+}
+</script>
+</body>
+</html>
